@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario1.css" type="text/css" />
+    <title>Rellena el formulario</title>
+</head>
+<body>
+    <header><h1>Las pseudoclases en accion</h1></header>
+
+    <main id="contenedor">
+    <section>
+      <nav id="navbar">
+        <ul>
+          <li>menu 1</li>
+          <li>menu 2</li>
+          <li> ... </li>
+        </ul>
+      </nav>
+    </section>
+      <section id="seccion1">
+        <form action="#">
+            <fieldset>
+                <legend>Dirección</legend>
+        
+                <label for="nombre"> Nombre Cliente: </label>
+               <input name='nombre' type='text' placeholder="Indique el nombre del cliente" required ="true"><br/>
+               <label for="direccion">Calle</label> 
+               <input name='direccion' type='text' placeholder="Indique la calle y direccion" required ="true"><br/>
+               <label for="ciudad">Ciudad:</label>
+               <input name='ciudad' type='text' class="punteado">
+               </fieldset>
+              
+               <fieldset>
+                <legend>Sexo</legend>
+                <input type='radio' name='sexo' value='Hombre'> Hombre
+                <input type='radio' name='sexo' value='Mujer'> Mujer
+               </fieldset>
+               <fieldset>
+               <legend>Aficiones</legend>
+               <input type='checkbox' name='Futbol' > Futbol
+               <input type='checkbox' name='Motos' > Motos
+               <input type='checkbox' name='Ciclismo'> Ciclismo
+              </fieldset>
+              <input type="submit" value="Enviar"></input>
+        </form>
+      </section>
+      <aside id="anuncios">
+        PublicidadPublicidadPublicidadPublicidadPublicidadPublicidadPublicidadPublicidadPublicidadPublicidadPublicidadPublicidad
+      </aside>
+      <footer id="footerBody"><p>Ejericicios html. Elisabet Martin Muriel</p></footer>
+    </main>
+</body>
+</html>

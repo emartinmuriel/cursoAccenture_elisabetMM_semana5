@@ -1,0 +1,32 @@
+#seccion1,
+#menu {
+width: 20%;
+min-width: 15%;
+float: left;
+margin-left:0.1em;
+background-color: aquamarine;
+border:none;
+padding: 0.3em;
+}
+
+#seccion1 {
+    margin-left: 1em;
+    padding: 0.3em;
+    width: 70%;
+    background-color: azure;
+}
+aside{
+    background-color: gray;
+}
+#footerBody{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    padding: 0.2em;
+    padding-left: 1em;
+    width: 100%;
+}
+header{
+    background-color: lightseagreen;
+    color: #fff;
+}
